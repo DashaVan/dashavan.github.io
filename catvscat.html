@@ -1,0 +1,29 @@
+﻿<html>
+<head>
+<title>Кошки</title>
+<style>
+    <body>{
+         background: url(fon/фон1.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }
+  </style>
+</head>
+<body style="background-attachment:fixed" topmargin="0">
+<center><H2>Смена графических объектов</H2></center>
+<a href="index.html"><h3 align="right">Переход на <br/> главную страницу</h3></a>
+<img src="bab.jpg" name="pict" border=0
+     onMouseOver="changeImg('bab.jpg')"
+     onMouseOut="changeImg('bb.jpg')" >
+
+<script type="text/javascript" language="JavaScript">
+ function changeImg(source)
+ {  document.pict.src = source + ' ';
+ };
+</script>
+<p>Для смены графического объекта переместите на него мышку.</p>
+
+</body>
+</html>
